@@ -37,3 +37,7 @@ def fib(n):
         return 1
     else:
         return fib(n-1)+fib(n-2)
+
+def geometric(a, ratio, n):
+	'''Jotain kommenttia'''
+	return a*(1-ratio**n)/(1-ratio)
